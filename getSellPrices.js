@@ -1,10 +1,4 @@
 import axios from "axios";
-import Binance from "node-binance-api";
-
-const binance = new Binance().options({
-  APIKEY: "tdxkAyfhefIjFsQRtiv9NYTKOHY3OFmFKYLuSWpujlhw8BpoSqBmtPWCaYW2us7W",
-  APISECRET: "87Gb7coI7c0cMFiwWr3XjbEqcybQ3QoQ9saW7izbaFVEdinFgtWWtG89AkH3QIb7",
-});
 
 const BINANCE_P2P_API =
   "https://c2c.binance.com/bapi/c2c/v2/friendly/c2c/adv/search";
